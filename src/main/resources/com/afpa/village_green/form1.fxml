@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="583.0" prefWidth="1332.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.afpa.village_green.Form1Controller">
+    <stylesheets>
+        <URL value="@/styles/form1.css" />
+    </stylesheets>
+   <children>
+      <Pane fx:id="pane" layoutX="16.0" layoutY="250.0" prefHeight="254.0" prefWidth="1301.0" visible="false">
+         <children>
+            <TextField fx:id="txt_num_client" layoutX="293.0" layoutY="28.0" promptText="Numéro client" text="dfgh" />
+            <TextField fx:id="txt_coeff" layoutX="593.0" layoutY="28.0" promptText="Coefficient" text="dfgh" />
+            <TextField fx:id="txt_nom" layoutX="893.0" layoutY="28.0" promptText="Nom" text="dfgh" />
+            <TextField fx:id="txt_prenom" layoutX="1119.0" layoutY="28.0" promptText="Prénom" text="dfgh" />
+            <TextField fx:id="txt_adresse" layoutX="14.0" layoutY="86.0" promptText="Adresse" text="dfgh" />
+            <TextField fx:id="txt_comp_adresse" layoutX="292.0" layoutY="86.0" promptText="Comp. adresse" text="dfgh" />
+            <TextField fx:id="txt_codpos" layoutX="593.0" layoutY="86.0" promptText="Code postal" text="dfgh" />
+            <TextField fx:id="txt_ville" layoutX="893.0" layoutY="86.0" promptText="Ville" text="dfgh" />
+            <TextField fx:id="txt_stat_client" layoutX="1123.0" layoutY="86.0" promptText="Statut client" text="dfgh" />
+            <TextField fx:id="txt_tel" layoutX="14.0" layoutY="135.0" promptText="Téléphone" text="dfgh" />
+            <TextField fx:id="txt_mail" layoutX="292.0" layoutY="135.0" promptText="Email" text="dfgh" />
+            <TextField fx:id="txt_mdp" layoutX="593.0" layoutY="135.0" promptText="Mot de passe" text="dfgh" />
+            <TextField fx:id="txt_reduc" layoutX="893.0" layoutY="138.0" promptText="Réduction" text="12" />
+            <TextField fx:id="txt_adresse_liv" layoutX="1123.0" layoutY="136.0" promptText="Adresse de livraison" text="dfgh" />
+            <TextField fx:id="txt_adresse_fac" layoutX="451.0" layoutY="201.0" promptText="Adresse de facturation" text="dfgh" />
+            <ComboBox fx:id="txt_id_comm" layoutX="742.0" layoutY="201.0" onAction="#combo_action" prefWidth="150.0" />
+            <Label layoutX="742.0" layoutY="181.0" text="Identification commercial" />
+            <Button fx:id="btn_ok" layoutX="1119.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn_ok_click" prefHeight="25.0" prefWidth="57.0" text="Ok" />
+            <Button fx:id="btn_annuler" layoutX="1210.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn_annuler_click" text="Annuler" />
+            <Label fx:id="lbl_miss_adresse_fac" layoutX="451.0" layoutY="226.0" textFill="RED" />
+            <Label fx:id="lbl_miss_tel" layoutX="13.0" layoutY="163.0" textFill="RED" />
+            <Label fx:id="lbl_miss_mail" layoutX="293.0" layoutY="163.0" textFill="RED" />
+            <Label fx:id="lbl_miss_mdp" layoutX="593.0" layoutY="163.0" textFill="RED" />
+            <Label fx:id="lbl_miss_reduc" layoutX="893.0" layoutY="163.0" textFill="RED" />
+            <Label fx:id="lbl_miss_adresse_liv" layoutX="1126.0" layoutY="163.0" textFill="RED" />
+            <Label fx:id="lbl_miss_adresse" layoutX="13.0" layoutY="111.0" textFill="RED" />
+            <Label fx:id="lbl_miss_comp_adresse" layoutX="293.0" layoutY="111.0" textFill="RED" />
+            <Label fx:id="lbl_miss_codpos" layoutX="593.0" layoutY="111.0" textFill="RED" />
+            <Label fx:id="lbl_miss_ville" layoutX="893.0" layoutY="111.0" textFill="RED" />
+            <Label fx:id="lbl_miss_stat_client" layoutX="1126.0" layoutY="111.0" textFill="RED" />
+            <Label fx:id="lbl_miss_num_client" layoutX="293.0" layoutY="53.0" textFill="RED" />
+            <Label fx:id="lbl_miss_coeff" layoutX="593.0" layoutY="53.0" textFill="RED" />
+            <Label fx:id="lbl_miss_nom" layoutX="893.0" layoutY="53.0" textFill="RED" />
+            <Label fx:id="lbl_miss_prenom" layoutX="1119.0" layoutY="53.0" textFill="RED" />
+         </children>
+      </Pane>
+      <Label fx:id="message" layoutX="16.0" layoutY="550.0" />
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="38.0" prefHeight="200.0" prefWidth="1301.0">
+        <columns>
+          <TableColumn fx:id="col_num" prefWidth="75.0" text="Numéro client" />
+            <TableColumn fx:id="col_coeff" prefWidth="75.0" text="Coefficient" />
+            <TableColumn fx:id="col_nom" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="col_prenom" prefWidth="75.0" text="Prénom" />
+            <TableColumn fx:id="col_adresse" prefWidth="75.0" text="Adresse" />
+            <TableColumn fx:id="col_comp_adresse" prefWidth="75.0" text="Complément d'adresse" />
+            <TableColumn fx:id="col_codepos" prefWidth="75.0" text="Code postal" />
+            <TableColumn fx:id="col_ville" prefWidth="75.0" text="Ville" />
+            <TableColumn fx:id="col_statut" prefWidth="75.0" text="Statut client" />
+            <TableColumn fx:id="col_tel" prefWidth="75.0" text="Tel" />
+            <TableColumn fx:id="col_mail" prefWidth="75.0" text="Mail" />
+            <TableColumn fx:id="col_mdp" prefWidth="75.0" text="Mdp" />
+            <TableColumn fx:id="col_reduc" prefWidth="75.0" text="Réduction" />
+            <TableColumn fx:id="col_adresse_liv" prefWidth="75.0" text="Adresse livraison" />
+            <TableColumn fx:id="col_adresse_fac" prefWidth="75.0" text="Adresse facturation" />
+            <TableColumn fx:id="col_id_commercial" prefWidth="75.0" text="Id commercial" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label layoutX="637.0" layoutY="1.0" text="Clients" AnchorPane.topAnchor="1.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_ajout" layoutX="1051.0" layoutY="525.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="25.0" prefWidth="72.0" text="Ajouter" />
+      <Button fx:id="btn_modif" layoutX="1139.0" layoutY="525.0" mnemonicParsing="false" onAction="#modifier" prefHeight="25.0" prefWidth="72.0" text="Modifier" />
+      <Button fx:id="btn_supprim" layoutX="1230.0" layoutY="525.0" mnemonicParsing="false" onAction="#supprimer" text="Supprimer" />
+      <Button fx:id="btn_commandes" layoutX="872.0" layoutY="525.0" mnemonicParsing="false" onAction="#voir_commandes" text="Voir les commandes" />
+   </children>
+</AnchorPane>

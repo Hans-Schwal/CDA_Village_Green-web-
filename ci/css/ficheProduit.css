@@ -1,0 +1,115 @@
+/* Desktop */
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#instruPic{
+    width: 290px;
+    height: 330px;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.designation{
+    margin-left: 55%;
+    margin-top: -45%;
+    font-weight: bold;
+}
+.description{
+    margin-left: 55%;
+}
+.price{
+    margin-left: 55%;
+    font-size: 150%;
+    color: coral;
+    margin-bottom: 2%;
+}
+.quantity{
+    margin-left: 55%;
+}
+
+button{
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instruPic{
+        width: 290px;
+        height: 330px;
+        margin-left: 30%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    .designation{
+        margin-left: 14%;
+        margin-top: 2%;
+        font-weight: bold;
+    }
+    .description{
+        margin-left: 14%;
+    }
+    .price{
+        margin-left: 14%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    .quantity{
+        margin-left: 14%;
+    }
+    
+    button{
+        margin-left: 14%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+  }
+  
+  /* Tablette */
+   @media (min-width: 768px) and (max-width: 991.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instruPic{
+        width: 290px;
+        height: 330px;
+        margin-left: 30%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    .designation{
+        margin-left: 14%;
+        margin-top: 2%;
+        font-weight: bold;
+    }
+    .description{
+        margin-left: 14%;
+    }
+    .price{
+        margin-left: 14%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    .quantity{
+        margin-left: 14%;
+    }
+    
+    button{
+        margin-left: 14%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+  }

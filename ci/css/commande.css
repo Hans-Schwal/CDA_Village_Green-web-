@@ -1,0 +1,189 @@
+/* Desktop */
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#instrument{
+    width: 200px;
+    height: 230px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.designation{
+    margin-left: 35%;
+    margin-top: -30%;
+    font-weight: bold;
+}
+.description, .quantity{
+    margin-left: 35%;
+}
+a{
+    color:black;
+    text-decoration-color: none;
+}
+.price{
+    margin-left: 35%;
+    font-size: 150%;
+    color: coral;
+    margin-bottom: 2%;
+}
+.totalPrice{
+    margin-left: 80%;
+    font-size: 150%;
+    color: coral;
+    margin-bottom: 2%;
+}
+label{
+    margin-left: 2%;
+}
+input{
+    margin-left: 2%;
+    max-width: 98%;
+}
+#button{
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+#pay{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#back{
+    margin-left: 80%;
+    margin-bottom: 2%;
+}
+#abort{
+    margin-bottom: 2%;
+}
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instrument{
+        width: 200px;
+        height: 230px;
+        margin-left: 82.5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .designation{
+        margin-left: 35%;
+        margin-top: -1%;
+        font-weight: bold;
+    }
+    .description, .quantity{
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+    a{
+        color:black;
+        text-decoration-color: none;
+    }
+    .price{
+        margin-left: 35%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    .totalPrice{
+        margin-left: 80%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    label{
+        margin-left: 4%;
+    }
+    input{
+        margin-left: 4%;
+        max-width: 98%;
+    }
+    #button{
+        margin-left: 25%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #pay{
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+    #back{
+        margin-left: 22%;
+        margin-bottom: 2%;
+    }
+    #abort{
+        margin-bottom: 2%;
+    }
+}
+
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instrument{
+        width: 200px;
+        height: 230px;
+        margin-left: 25%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .designation{
+        margin-left: 60%;
+        margin-top: -52%;
+        font-weight: bold;
+    }
+    .description, .quantity{
+        margin-left: 60%;
+        margin-bottom: 5%;
+    }
+    a{
+        color:black;
+        text-decoration-color: none;
+    }
+    .price{
+        margin-left: 60%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    .totalPrice{
+        margin-left: 70%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+    label{
+        margin-left: 4%;
+    }
+    input{
+        margin-left: 4%;
+        max-width: 98%;
+    }
+    #button{
+        margin-left: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #pay{
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+    #back{
+        margin-left: 38%;
+        margin-bottom: 2%;
+    }
+    #abort{
+        margin-bottom: 2%;
+    }
+}

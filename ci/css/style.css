@@ -1,0 +1,241 @@
+/* Desktop */
+.ads{
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+.adButton{
+  position: absolute;
+  z-index: 1;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-left: 4%;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+.guitarAd{
+  padding-left: 1%;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-left: 4%;
+}
+.priceAd{
+  margin-left: 3%;
+  margin-right: 0.5%;
+  width: 100%;
+  max-width: 195px;
+  height: auto;
+}
+.centralBanner{
+  padding-bottom: 3%;
+}
+.bannerImg{
+  margin-left: 0.5%;
+  padding-right: 4%;
+  width: 105%;
+  height: auto;
+}
+.categories{
+  padding-bottom: 2%;
+  margin-left: 0.5%;
+  margin-right: -1.4%;
+}
+.lienCat{
+  font-weight: bold;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 150%;
+  margin-left: 5%;
+}
+.imgContainer1{
+  display: inline-flex;
+}
+.img1, .img2, .img3, .img4{
+  width: 100%;
+}
+.img1{
+  max-width: 400px;
+  height: auto;
+}
+.imgContainer2{
+  display: inline-flex;
+}
+.img5{
+  width: 96%;
+}
+.img6{
+  height: 84%;
+  width: 94%;
+  margin-left: -4%;
+}
+.img7{
+  height: 84%;
+  width: 96%;
+  margin-left: -9.6%;
+}
+.img8{
+  height: 84%;
+  width: 116%;
+  margin-left: -16.5%;
+}
+.sellsAndPartners p{
+  margin-left: 7%;
+  font-weight: bold;
+}
+.topContainer1{
+  display: inline-flex;
+  margin-bottom: 10%;
+  margin-left: 6%;
+}
+.imgTopVente1{
+  height: auto;
+  width: 100%;
+  margin-left: 3%;
+}
+.imgTopVente2{
+  height: auto;
+  width: 100%;
+  margin-left: 12%;
+}
+.imgTopVente3{
+  height: auto;
+  width: 100%;
+  margin-left: 20%;
+}
+.imgParteners{
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin-left: 5%;
+}
+.topContainer2{
+  display: inline-flex;
+  margin-left: 2%;
+  margin-bottom: 10%;
+}
+h3{
+  margin-left: 6%;
+}
+.nav-link{
+  color: white;
+}
+.nav2 .nav-link{
+  font-weight: bold;
+}
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+  .guitarAd{
+    width: 320px;
+    height: auto;
+    margin-top: 45%;
+  }
+  .adButton{
+    position: absolute;
+    z-index: 1;
+    border: 2px solid white;
+    width: 150px;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 43%;
+  }
+  .priceAd{
+    display: none;
+  }
+  .bannerImg{
+    width: 106.6%;
+    height: auto;
+    margin-left: 1.5%;
+  }
+  .img1, .img2, .img3, .img4, .img5{
+    width: 100%;
+  }
+  .img5{
+    margin-left: 4%;
+    padding-right: 2%;
+  }
+  .img6{
+    margin-left: 2%;
+  }
+  .img7{
+    margin-left: -3.5%;
+  }
+  .img8{
+    margin-left: -8%;
+  }
+  .imgContainer1{
+    margin-left: 1%;
+    width: 101%;
+  }
+  h3{
+    font-size: 0.8em;
+    margin-left: 7%;
+  }
+  .imgParteners{
+    width: 85%;
+    margin-left: 5%;
+  }
+}
+
+/* Tablette */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+  .logo{
+    width: 250px;
+    height: auto;
+    margin-top: 4.5%;
+    margin-left: 1.5%;
+  } 
+  .guitarAd{
+    width: 94%;
+    height: auto;
+    margin-top: 25%;
+  }
+  .adButton{
+    position: absolute;
+    z-index: 1;
+    border: 2px solid white;
+    width: 37%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 24%;
+  }
+  .priceAd{
+    display: none;
+  }
+  .bannerImg{
+    width: 105.5%;
+    height: auto;
+    margin-left: 0.7%;
+  }
+  .img1, .img2, .img3, .img4, .img5{
+    width: 100%;
+  }
+  .img5{
+    margin-left: 1%;
+    padding-right: 2%;
+  }
+  .img6{
+    margin-left: -1.5%;
+  }
+  .img7{
+    margin-left: -7.5%;
+  }
+  .img8{
+    margin-left: -14%;
+  }
+  .imgContainer1{
+    margin-left: 0.5%;
+    width: 100%;
+  }
+  h3{
+    font-size: 0.8em;
+    margin-left: 7%;
+  }
+  .imgParteners{
+    width: 85%;
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  <link rel="stylesheet" href="inscription.css">
+  <title>Village Green</title>
+</head>
+<body>
+  <div class="container">
+    <section>
+      <!-- <a href="index.html"><img src="assets/Charte/HEADER/logo village green.png" alt="logo" class="logo"></a> -->
+      <img src="assets/Charte/HEADER/3 bandes.png" alt="3 bandes" id="stripes">
+      <div class="menu">
+        <nav class="nav1">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Infos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="popover" data-placement="bottom" data-content="Content">Espace client</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="assets/Charte/HEADER/picto panier.png" alt="panier"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="assets/Charte/HEADER/picto pays.png" alt="drapeau"></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav2">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">A propos</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav3">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover">Guit/Bass</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Batteries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Claviers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sono</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Eclairage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DJ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessoires</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col">
+          <h2 id="firstId">Créez vos identifiants</h2>
+          <form class="form1">
+            <div class="form-group row">
+              <label for="inputEmail" class="col-sm-2 col-form-label inputEmail">E-mail</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" required>
+                <span id="missEmail"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label inputPassword">Créez votre mot de passe</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="password" required>
+                <span id="missPassword"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label inputConfirmPassword">Confirmation mot de passe</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="confirmPassword" required>
+                <span id="missConfirmPassword"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Créez vos identifiants</h2>
+        <div class="row">
+          <div class="col">
+            <form class="form2">
+              <div class="form-group row">
+                <label for="prenom" class="col-sm-2 col-form-label">Prenom</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="firstName" required>
+                  <span id="missFirstName"></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="nom" class="col-sm-2 col-form-label">Nom</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name" required>
+                  <span id="missName"></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="adresse" class="col-sm-2 col-form-label">Adresse</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="adress" required>
+                  <span id="missAdress"></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="compAdresse" class="col-sm-2 col-form-label">Complément d'adresse</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="compAdress">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="codePostal" class="col-sm-2 col-form-label">Code postal</label>
+                <div class="col-sm-10">
+                  <input type="zip" class="form-control" id="zip" required>
+                  <span id="missZip"></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="ville" class="col-sm-2 col-form-label">Ville</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="city" required>
+                  <span id="missCity"></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="pays" class="col-sm-2 col-form-label">Pays</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="country" required>
+                  <span id="missCountry"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <img class="numberFrame" src="assets/Charte/BODY/ESPACE CLIENT/CADRE numero.png" alt="cadre numéro">
+            </div>
+          </form>
+        </div>
+      </section>
+      <a href="#"><img class="validationButton" id="button" src="assets/Charte/BODY/ESPACE CLIENT/bouton valider.png" alt="bouton valider"></a>
+      <section class="endPage">
+        <img class="pictos" src="assets/Charte/BODY/ESPACE CLIENT/bas de page pictos.png" alt="pictos bas de page">
+      </section>
+    </div>
+    <footer>
+      <img src="assets/Charte/FOOTER/footer SIMPLE.png" alt="footer">
+    </footer>
+    <script src="inscription.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>

@@ -1,0 +1,86 @@
+/* Desktop */
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#instrument{
+    width: 290px;
+    height: 330px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.designation{
+    margin-left: 35%;
+}
+a{
+    color:black;
+    text-decoration-color: none;
+}
+.price{
+    margin-left: 35%;
+    font-size: 150%;
+    color: coral;
+    margin-bottom: 2%;
+}
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instrument{
+        width: 90px;
+        height: 130px; 
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .designation{
+        margin-left: 15%;
+    }
+    a{
+        color:black;
+        text-decoration-color: none;
+    }
+    .price{
+        margin-left: 15%;
+        font-size: 100%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+}
+
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h2{
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 3%;
+    }
+    #instrument{
+        width: 190px;
+        height: 230px; 
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .designation{
+        margin-left: 15%;
+    }
+    a{
+        color:black;
+        text-decoration-color: none;
+    }
+    .price{
+        margin-left: 15%;
+        font-size: 150%;
+        color: coral;
+        margin-bottom: 2%;
+    }
+}

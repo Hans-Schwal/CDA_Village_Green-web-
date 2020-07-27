@@ -1,0 +1,122 @@
+h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #emailLabel{
+      margin-left: 3%;
+  }
+  #passwordLabel{
+    margin-left: 6%;
+  }
+  #passwordConfirmLabel{
+    margin-left: 4%;
+  }
+  #email{
+      background-color: lightgrey;
+      margin-left: 2%;
+      width: 95%;
+  }
+  #missEmail{
+      margin-left: 3%;
+  }
+  #missPassword{
+    margin-left: 5%;
+  }
+  #missConfirmPassword{
+    margin-left: 5%;
+  }
+  #password{
+      background-color: lightgrey;
+      margin-left: 4%;
+      width: 92%;
+  } 
+  #confirmPassword{
+      background-color: lightgrey;
+      margin-left: 2%;
+      width: 92%;
+  }
+  .validationButton{
+    margin-left: 42.5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  #button{
+    margin-left: 45%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .endPage{
+    margin-bottom: 1%;
+  }
+  .pictos{
+    width: 101.5%;
+    margin-bottom: 5%;
+  }
+    
+  /* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+  /*  Mobile */
+  @media (min-width: 360px) and (max-width: 767.98px) {
+    h2{
+      margin-top: 30%;
+    }
+    label{
+      margin-left: 15%;
+    }
+    #password{
+      margin-top: 16%;
+    }
+    .pictos{
+      display: none;
+    }
+    #button{
+      margin-left: 42%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+  }
+
+  /* Tablette */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+    h2{
+      margin-top: 25%;
+    }
+    .pictos{
+      display: none;
+    }
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

@@ -1,0 +1,226 @@
+/* Desktop */
+h2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.inputEmail{
+  margin-left: 7%;
+}
+.inputPassword{
+  margin-left: 13%;
+}
+#email{
+  width: 42%;
+  background-color: lightgrey;
+  margin-left: 16%;
+  margin-top: -4%;
+}
+#password{
+  width: 87%;
+  background-color: lightgrey;
+  margin-left: 33.5%;
+  margin-top: -25%;
+}
+#confirmPassword{
+  width: 87%;
+  background-color: lightgrey;
+  margin-left: 6%;
+}
+#firstName, #name, #adress, #compAdress, #zip, #city, #country{
+  width: 85%;
+  background-color: lightgrey;
+  margin-top: 1.5%;
+  margin-left: 15%;
+}
+.numberFrame{
+  margin-left: 10%;
+  margin-top: -3%;
+  margin-bottom: 5%;
+  border: 1px solid darkblue;
+}
+.validationButton{
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#button{
+  margin-left: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.endPage{
+  margin-bottom: 1%;
+}
+.pictos{
+  width: 101.5%;
+  margin-bottom: 5%;
+}
+footer{
+  margin-left: 20%;
+}
+footer img{
+  width: 75.5%;
+}
+.form2{
+  margin-top: 5%;
+}
+.nav-link{
+  color: white;
+}
+.nav2 .nav-link{
+  font-weight: bold;
+}
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+  h2{
+    margin-top: 25%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #email{
+    width: 95%;
+    background-color: lightgrey;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .inputConfirmPassword{
+    margin-top: 45%;
+    margin-left: -85%;
+  }
+  #password{
+    width: 210%;
+    background-color: lightgrey;
+    margin-left: 10%;
+    margin-top: -20%;
+  }
+  #confirmPassword{
+    width: 210%;
+    background-color: lightgrey;
+    margin-left: -107%;
+    margin-top: 5%;
+  }
+  #labelFirstName, #labelName, #labelAdress, #labelCompAdress, #labelZip, #labelCity, #labelCountry{
+    margin-left: 15%;
+  }
+  #firstName, #name, #adress, #compAdress, #zip, #city, #country{
+    width: 210%;
+    background-color: lightgrey;
+    margin-top: 1.5%;
+    margin-left: 12%;
+  }
+  .numberFrame{
+    display: none;
+  }
+  .validationButton{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  #button{
+    margin-left: 42.5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .endPage{
+    margin-bottom: 1%;
+  }
+  .pictos{
+    display: none;
+  }
+  footer{
+    margin-left: 20%;
+  }
+  footer img{
+    width: 75.5%;
+  }
+  .form2{
+    margin-top: 5%;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav2 .nav-link{
+    font-weight: bold;
+  }
+}
+
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h2{
+    margin-top: 25%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #title2{
+    margin-top: 5%;
+  }
+  #email{
+    width: 115%;
+    background-color: lightgrey;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .inputConfirmPassword{
+    margin-top: 48%;
+    margin-left: -87%;
+  }
+  #password{
+    width: 245%;
+    background-color: lightgrey;
+    margin-left: 10%;
+    margin-top: -1%;
+  }
+  #confirmPassword{
+    width: 245%;
+    background-color: lightgrey;
+    margin-left: -30%;
+    margin-top: 103%;
+  }
+  #labelFirstName, #labelName, #labelAdress, #labelCompAdress, #labelZip, #labelCity, #labelCountry{
+    margin-left: 15%;
+  }
+  #firstName, #name, #adress, #compAdress, #zip, #city, #country{
+    width: 240%;
+    background-color: lightgrey;
+    margin-top: 1.5%;
+    margin-left: 12%;
+  }
+  .numberFrame{
+    display: none;
+  }
+  .validationButton{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  #button{
+    margin-left: 42.5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .endPage{
+    margin-bottom: 1%;
+  }
+  .pictos{
+    display: none;
+  }
+  footer{
+    margin-left: 20%;
+  }
+  footer img{
+    width: 75.5%;
+  }
+  .form2{
+    margin-top: 5%;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav2 .nav-link{
+    font-weight: bold;
+  }
+}

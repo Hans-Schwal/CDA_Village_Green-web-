@@ -1,0 +1,24 @@
+footer{
+  margin-left: 20%;
+}
+.imgFooter{
+  width: 75.5%;
+} 
+
+/* Utilisation de media queries pour optimisation du responsive mobile/tablette */
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767.98px) {
+  .imgFooter{
+    width: 121%;
+    margin-left: -20%;
+  }
+}
+
+  /* Tablette */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .imgFooter{
+    width: 117%;
+    margin-left: -20%;
+  }
+}
